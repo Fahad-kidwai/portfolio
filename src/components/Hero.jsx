@@ -10,7 +10,7 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     // This would link to the actual resume file
-    window.open('/Fahad_Kidwai_Frontend_Dev.pdf', '_blank')
+    window.open('/portfolio/Fahad_Kidwai_Frontend_Dev.pdf', '_blank')
   }
 
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl"></div>
               <img
-                src="/profile-photo.png"
+                src="/portfolio/profile-photo.png"
                 alt="Fahad Kidwai - Frontend Developer"
                 className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/20 shadow-xl"
               />

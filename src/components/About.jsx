@@ -55,7 +55,7 @@ const About = () => {
               <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                 <div className="flex-shrink-0">
                   <img
-                    src="/profile-photo.png"
+                    src="/Portfolio/profile-photo.png"
                     alt="Fahad Kidwai"
                     className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/10 shadow-lg"
                   />

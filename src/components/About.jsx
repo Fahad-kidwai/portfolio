@@ -55,8 +55,12 @@ const About = () => {
               <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                 <div className="flex-shrink-0">
                   <img
-                    src="/Portfolio/profile-photo.png"
+                    src="/portfolio/profile-photo.png"
                     alt="Fahad Kidwai"
+                    width={160}
+                    height={160}
+                    loading="lazy"
+                    decoding="async"
                     className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/10 shadow-lg"
                   />
                 </div>

@@ -33,6 +33,10 @@ const Hero = () => {
               <img
                 src="/portfolio/profile-photo.png"
                 alt="Fahad Kidwai - Frontend Developer"
+                width={160}
+                height={160}
+                decoding="async"
+                fetchPriority="high"
                 className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/20 shadow-xl"
               />
             </div>
